@@ -26,5 +26,16 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4",
     "webpack-merge": "^6.0.1"
-  }
+  },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/HimjyotiSarma/Webpack-Typescript-Starter"
+  },
+  "keywords": [
+    "webpack",
+    "javascript",
+    "typescript",
+    "js",
+    "ts"
+  ]
 }
