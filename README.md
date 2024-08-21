@@ -28,4 +28,3 @@ To Deploy in git pages
 ```bash
   npm deploy
 ```
-
