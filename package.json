@@ -1,0 +1,30 @@
+{
+  "name": "webpack_demo_app",
+  "version": "1.0.0",
+  "description": "Demo Webpack App Configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "publish": "git subtree push --prefix dist origin gh-pages"
+  },
+  "author": "Himjyoti",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.8.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "jest": "^29.7.0",
+    "prettier": "3.3.3",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "webpack-merge": "^6.0.1"
+  }
+}
