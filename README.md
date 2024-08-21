@@ -26,6 +26,6 @@ To Create a Webpack Distribution File
 To Deploy in git pages
 
 ```bash
-  npm publish
+  npm deploy
 ```
 
